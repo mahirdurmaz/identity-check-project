@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  height: 100vh;
+  width: 100%;
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+input {
+  padding: 0.5rem;
+  border: none;
+  background-color: #f2f2f2;
+  color: black;
+  border-radius: 15px;
+  width: 162px;
+  transition: all 1s;
+}
+
+input[type="text"]:focus {
+  border: 1px solid black;
+  outline: none;
+  transition: all 1s;
+}
+
+::placeholder {
+  color: rgb(185, 185, 185);
+}
+
+button {
+  width: 20%;
+  background-color: #0077ed;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 15px;
+  cursor: pointer;
+  max-height: 32px;
+  width: 71px;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #1e83e7;
+  transition: all 0.3s;
+}
+
+section {
+  display: flex;
+  width: 250px;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+p {
+  font-size: 0.84rem;
+}
+
+.true {
+  color: rgb(35, 211, 35);
+}
+
+.wrong {
+  color: red;
+}
